@@ -8,7 +8,8 @@ node_js:
 env:
     global:
         - XUNIT_FILE=./shippable/testresults/result.xml
-        - secure: #encryped var
+        - secure: 2oCwlgZp7eYWe9f0T+yQrqkfTc0vi7fuONmmlQc2blE1O3B2EMbHYTUNdyL4kcNwWBrzt9FkAiW6CWJWvHC9pnDFj8/mwsVMSb46S+oYbFu19KX6Il8SJ0YpLqkQdvtgVnnj0bG3zo/EQ/oKIDcoRpGhg+gSUetqkUiDoYO4Mlqvser5zKIULQURFXPnqlFU0fZ/TYZeXwfdnZg0wXbRQuw4RGFUS1DxxtEKriwR6czQXFdas3M14D8098yawhvRy1AytKwDoBBZsFKnhFj8D+PTG4zxIvOxlbwmATCbeix9Bpj6OvNbPkOBs2nxcwGMbZKVRtapOqfT+GIJNtPoKA==
+
         # TOKEN is a GitHub token for the subscription triggering the build
 
 before_install:
